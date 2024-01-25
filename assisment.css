@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-contend {
+    background-color: burlywood;
+    height: 590px;
+    width: 100%;
+}
+
+h1 {
+    color: brown;
+    margin: 0px 10px 0px 25px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+hr {
+    margin: 20px 30px 10px 30px;
+
+}
+
+.header {
+    background-color: white;
+    height: 110px;
+    width: 95%;
+    position: relative;
+    margin: 20px 0px 10px 30px; 
+    display: flex;   
+}
+
+h3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.address-detials {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    left: 10px;
+    top: 35px;
+}
+
+.contact-detials {
+    position: absolute;
+    left: 550px;
+    top: 35px;
+}
+
+.location{
+    position: absolute;
+    left: 1000px;
+    top: 35px;
+    color: red;
+    font-size: 40px;
+    
+}
+
+.header2 {
+    width: 95%;
+    height: 350px;
+    margin: 20px 0px 10px 30px;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    position: relative;
+   
+}
+
+.name{
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    position: absolute;
+}
+
+.email{
+    top: 70px;
+    left: 10px;
+    font-size: 25px;
+    position: absolute;
+}
+
+.company{
+    top: 10px;
+    left: 350px;
+    font-size: 25px;
+    position: absolute;
+}
+
+.mobile{
+    top: 70px;
+    left: 350px;
+    font-size: 25px;
+    position: absolute;
+}
+
+.message {
+    top: 130px;
+    left: 10px;
+    font-size: 22px;
+    position: absolute;
+    height: 100px;
+    width: 650px;
+}
+
+.iframe{
+    display: flex;
+    position: absolute;
+    top: 233px;
+    left: 720px;
+       
+}
+.fa-envelope {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.fa-square-phone {
+    color: red;
+    font-size: 20px;
+}
+
+.fa-facebook {
+    position: absolute;
+    top: 300px;
+    right: 410px;
+    color: darkmagenta;
+    font-size: 20px;
+}
+
+.fa-twitter {
+    position: absolute;
+    top: 300px;
+    right: 380px;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.fa-linkedin {
+    position: absolute;
+    top: 300px;
+    right: 350px;
+    color: cadetblue;
+    font-size: 20px;
+}
+
+.fa-circle-user {
+    position: absolute;
+    top: 300px;
+    right: 320px;
+    color: coral;
+    font-size: 20px;
+}
+
+#submit {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    font-size: 30px;
+    color: coral;
+    background-color: red;
+}
+
+.fa-house {
+    color: coral;
+    font-size: 20px;
+}
